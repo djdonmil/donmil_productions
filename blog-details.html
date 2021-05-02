@@ -45,13 +45,13 @@
                             <ul>
                                 <li><a href="./index.html">Home</a></li>
                                 <li><a href="./about.html">About</a></li>
-                                <li><a href="./discography.html">Discography</a></li>
-                                <li><a href="./tours.html">Tours</a></li>
+                                <!-- <li><a href="./discography.html">Discography</a></li>
+                                <li><a href="./tours.html">Tours</a></li> -->
                                 <li><a href="./videos.html">Videos</a></li>
                                 <li class="active"><a href="#">Pages</a>
                                     <ul class="dropdown">
-                                        <li><a href="./about.html">About</a></li>
-                                        <li><a href="./blog.html">Blog</a></li>
+                                        <!-- <li><a href="./about.html">About</a></li>
+                                        <li><a href="./blog.html">Blog</a></li> -->
                                         <li><a href="./blog-details.html">Blog Details</a></li>
                                     </ul>
                                 </li>
@@ -221,15 +221,17 @@
                         </div>
                         <div class="blog__details__form">
                             <div class="blog__details__form__title">
-                                <h4>Leave a comment</h4>
+                                <h4>Want your Blog to be featured here?</h4>
                             </div>
-                            <form action="#">
+                            <form action="https://formsubmit.co/djdonmil@gmail.com" method="POST">
                                 <div class="input__list">
-                                    <input type="text" placeholder="Name">
-                                    <input type="text" placeholder="Email">
-                                    <input type="text" placeholder="Website">
+                                    <input type="hidden" name="_subject" value="New email yeah!">
+                                    <input type="text" name="name" placeholder="Name" required>
+                                    <input type="email" name="email" placeholder="Email" required>
+                                    <input type="text" name="message" placeholder="Something about your blog">
+                                    <!-- <input type="text" placeholder="Website"> -->
                                 </div>
-                                <textarea placeholder="Comment"></textarea>
+                                <!-- <textarea placeholder="Comment"></textarea> -->
                                 <button type="submit" class="site-btn">SEND MESSAGE</button>
                             </form>
                         </div>
@@ -239,13 +241,14 @@
                     <div class="blog__sidebar">
                         <div class="blog__sidebar__item">
                             <div class="blog__sidebar__title">
-                                <h4>Subscribe newsletter</h4>
+                                <h4>Stay Tuned</h4>
                             </div>
                             <p>Ipsum dolor sit amet, adipiscing elit, sed eiusmod </p>
-                            <form action="#">
-                                <input type="text" placeholder="Name">
-                                <input type="text" placeholder="Email">
-                                <button type="submit" class="site-btn">Subscribe</button>
+                            <form action="https://formsubmit.co/djdonmil@gmail.com" method="POST">
+                                <input type="hidden" name="_subject" value="Stay Tuned SUBSCRIBER">
+                                <input type="text" name="name" placeholder="Name" required>
+                                <input type="email" name="email" placeholder="Email" required>
+                                <button type="submit"><i class="fa fa-send-o"></i></button>
                             </form>
                         </div>
                         <div class="blog__sidebar__item">
@@ -253,57 +256,58 @@
                                 <h4>Social media</h4>
                             </div>
                             <div class="blog__sidebar__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                                <div class="footer__social__links">
+                                    <a href="https://www.facebook.com/djdonmil"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://twitter.com/DJDONMIL"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.instagram.com/djdonmil/"><i class="fa fa-instagram"></i></a>
+                                    <a href="https://soundcloud.com/dj-donmil"><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="blog__sidebar__item">
-                            <div class="blog__sidebar__title">
-                                <h4>Recent posts</h4>
+                            <div class="blog__sidebar__item">
+                                <div class="blog__sidebar__title">
+                                    <h4>Recent posts</h4>
+                                </div>
+                                <a href="#" class="recent__item">
+                                    <div class="recent__item__pic">
+                                        <img src="img/blog/br-1.jpg" alt="">
+                                    </div>
+                                    <div class="recent__item__text">
+                                        <h6>2020 Bendigo Blues and Roots Music Festival…</h6>
+                                        <span>Dec 17, 2019</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="recent__item">
+                                    <div class="recent__item__pic">
+                                        <img src="img/blog/br-2.jpg" alt="">
+                                    </div>
+                                    <div class="recent__item__text">
+                                        <h6>2020 Bendigo Blues and Roots Music Festival…</h6>
+                                        <span>Dec 17, 2019</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="recent__item">
+                                    <div class="recent__item__pic">
+                                        <img src="img/blog/br-3.jpg" alt="">
+                                    </div>
+                                    <div class="recent__item__text">
+                                        <h6>2020 Bendigo Blues and Roots Music Festival…</h6>
+                                        <span>Dec 17, 2019</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="recent__item">
+                                    <div class="recent__item__pic">
+                                        <img src="img/blog/br-4.jpg" alt="">
+                                    </div>
+                                    <div class="recent__item__text">
+                                        <h6>2020 Bendigo Blues and Roots Music Festival…</h6>
+                                        <span>Dec 17, 2019</span>
+                                    </div>
+                                </a>
                             </div>
-                            <a href="#" class="recent__item">
-                                <div class="recent__item__pic">
-                                    <img src="img/blog/br-1.jpg" alt="">
-                                </div>
-                                <div class="recent__item__text">
-                                    <h6>2020 Bendigo Blues and Roots Music Festival…</h6>
-                                    <span>Dec 17, 2019</span>
-                                </div>
-                            </a>
-                            <a href="#" class="recent__item">
-                                <div class="recent__item__pic">
-                                    <img src="img/blog/br-2.jpg" alt="">
-                                </div>
-                                <div class="recent__item__text">
-                                    <h6>2020 Bendigo Blues and Roots Music Festival…</h6>
-                                    <span>Dec 17, 2019</span>
-                                </div>
-                            </a>
-                            <a href="#" class="recent__item">
-                                <div class="recent__item__pic">
-                                    <img src="img/blog/br-3.jpg" alt="">
-                                </div>
-                                <div class="recent__item__text">
-                                    <h6>2020 Bendigo Blues and Roots Music Festival…</h6>
-                                    <span>Dec 17, 2019</span>
-                                </div>
-                            </a>
-                            <a href="#" class="recent__item">
-                                <div class="recent__item__pic">
-                                    <img src="img/blog/br-4.jpg" alt="">
-                                </div>
-                                <div class="recent__item__text">
-                                    <h6>2020 Bendigo Blues and Roots Music Festival…</h6>
-                                    <span>Dec 17, 2019</span>
-                                </div>
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
     <!-- Blog Details Section End -->
 
@@ -341,9 +345,10 @@
                 </div>
                 <div class="col-lg-3 offset-lg-1 col-md-6">
                     <div class="footer__newslatter">
-                        <h4>Stay With me</h4>
-                        <form action="#">
-                            <input type="text" placeholder="Email">
+                        <h4>Get latest Music updates around the GLOBE</h4>
+                        <form action="https://formsubmit.co/djdonmil@gmail.com" method="POST">
+                            <input type="hidden" name="_subject" value="New user subscribed to newsletter!">
+                            <input type="email" name="email" placeholder="Email" required>
                             <button type="submit"><i class="fa fa-send-o"></i></button>
                         </form>
                     </div>
